@@ -1,0 +1,6 @@
+- name: Install nginx
+  apt: name=nginx state=latest force=yes
+
+
+- name: Restart nginx
+  service: name=nginx state=restarted

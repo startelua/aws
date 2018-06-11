@@ -1,0 +1,4 @@
+#- include: ec2_key.yml
+- include: deploy.yml
+- include: setup_db.yml
+- include: setup_hosts.yml

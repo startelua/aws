@@ -1,0 +1,8 @@
+env           : "test"
+aws_region    : "eu-west-2"
+instance_type : "t2.micro"
+instance_count: 1
+ami           : "ami-a36f8dc4"
+keypair       : "nex"
+group_id      : "sg-3d3a0e59"
+ssh_key_location : "/home/pi/.ssh/nex.pem"
